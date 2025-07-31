@@ -1,0 +1,23 @@
+/* Menggunakan font Inter yang diimpor di HTML */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar untuk browser Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a8a8a8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
